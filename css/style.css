@@ -1,0 +1,161 @@
+
+body{
+    font-family: 'Be Vietnam Pro';
+    margin: 50px;
+}
+
+
+header{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 5px 0 30px;
+    color: #242E52;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+    color: #242E52;
+}
+   
+a:visited{
+    color: #242E52;
+   }
+
+a:hover{
+color: #8F94A7;
+}
+
+.boton{
+    border-radius: 50px;
+    background-color: rgba(243, 96, 59, 1);
+    color: rgba(255, 255, 255, 1);
+    border-style: none;
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    font-family: 'Be Vietnam Pro';
+}
+ 
+.boton:hover{
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+
+}
+
+
+.intro{
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.productos{
+    display: flex;
+    flex-direction: column;
+}
+
+.graficas{
+    width: 500px;
+}
+
+.boton_footer:hover{
+    background-color:rgba(255, 255, 255, 1);
+    color:  rgba(243, 96, 59, 1);
+}
+
+.boton_footer{
+    border-radius: 20px;
+    background-color: rgba(243, 96, 59, 1);
+    color: rgba(255, 255, 255, 1);
+    border-style: none;
+}
+
+main section{
+    display: flex;
+    margin: 50px;
+   justify-content: space-around;
+    
+}
+
+p{
+    color: #8F94A7;
+  }
+
+.container{
+    display: inline-flex;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+}
+
+.bullet{
+    background-color: rgba(243, 96, 59, 1);
+    border-radius: 30px;
+    width: 70px;
+    height: 43px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.title{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    width: 334.41px;
+    height: 61px;
+}
+
+
+.bring{
+    font-size: 58px;
+    font-weight: 700;
+    width: 439px;
+    margin-bottom: 20px;
+    letter-spacing: -0.035em;
+    color: #232c50;
+
+}
+
+.productos p{
+    width: 439px;
+}
+
+footer{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1E1E26;
+    color: rgba(255, 255, 255, 1);
+}
+
+footer ul li{
+ list-style: none;
+ color: rgba(255, 255, 255, 1);
+}
+
+.nav_footer:hover{
+    color:  rgba(243, 96, 59, 1);
+}
+
+
+
+
+
+
