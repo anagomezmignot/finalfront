@@ -28,7 +28,7 @@
             </nav>
         </section>
         <section>
-            <button class="boton">Get Started</button>
+            <button class="boton boton_header">Get Started</button>
         </section>
     </header>
 
@@ -41,6 +41,9 @@
                     in view</p>
 
                 <button class="boton">Get Started</button>
+
+                <!-- solo movil -->
+                <img class="hamburger" src="img/icon-hamburger.svg" alt="barras">
 
             </div>
             <div>
@@ -57,34 +60,25 @@
             </section>
             <section class="section2">
                 <article>
-                    <div class="bullet">
-                        <span>01</span>
-                    </div>
                     <div>
-                        <h3>Track company-wide progress</h3>
+                        <h3><span class="bullet">01</span>Track company-wide progress</h3>
                         <p>See how your day-to-day tasks fit into wider vision. Go from tracking progress at the
                             milestone level
                             all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
                     </div>
                 </article>
 
-                <article>
-                    <div class="bullet">
-                        <span>02</span>
-                    </div>
-                    <div>
-                        <h3>Advanced built-in reports</h3>
+                <article>                  
+                    <div> 
+                        <h3> <span class="bullet">02</span>Advanced built-in reports</h3>
                         <p>Set internal delivery estimates and track progress toward company goals. Our customisable
                             dashboard
                             helps you build out the reports you need to keep key stakeholders informed.</p>
                     </div>
                 </article>
                 <article>
-                    <div class="bullet">
-                        <span>03</span>
-                    </div>
                     <div>
-                        <h3>Everything you need in one place</h3>
+                        <h3><span class="bullet">03</span> Everything you need in one place</h3>
                         <p>Stop jumping from one service to another to communicate, store files, track tasks and share
                             documents. Manage offers an all-in-one team productivity solution.</p>
                     </div>
@@ -127,7 +121,7 @@
         </section>
     </main>
     <footer>
-        <section>
+        <div>
             <img src="img/Logo (4).png" alt="logo chico">
             <div>
                 <img src="img/icon-facebook.svg" alt="icono fb">
@@ -136,7 +130,8 @@
                 <img src="img/icon-pinterest.svg" alt="icono pint">
                 <img src="img/icon-instagram.svg" alt="icono ig">
             </div>
-            <section>
+        </div>
+            <section class="footer_nav">
                 <nav>
                     <ul class="nav_footer">
                         <li><a href="">Home</a></li>
@@ -153,9 +148,9 @@
                     </ul>
                 </nav>
             </section>
-        </section>
         <section>
             <form action="" method="submit">
+                <label for="email"></label>
                 <input type="email" name="email" id="ERequired">
             </form>
             <button class="boton_footer">Go</button>
