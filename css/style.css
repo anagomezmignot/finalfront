@@ -113,6 +113,16 @@ p{
     display: flex;
 }
 
+.testimonios article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonios article p{
+    text-align: center;
+}
 
 .title{
     display: flex;
@@ -213,7 +223,7 @@ color: rgba(243, 96, 59, 1);
     align-items: center;
 }
 
-@media (max-width:480px) {
+@media (max-width:375px) {
     header ul li{
         display: none;
     }
@@ -232,12 +242,7 @@ color: rgba(243, 96, 59, 1);
    .container{
     display: flex;
     flex-direction: column;
-   }
-
-.testimonios{
-    display: flex;
-    flex-direction: column;
-}   
+   }  
 
 .simplify{
     width:100%;
@@ -249,5 +254,45 @@ footer{
     flex-direction: column;
 }
 
+footer nav ul{
+    padding: 0px;
+}
+
+.redes{
+    order: 3;
+    padding-bottom: 30px;
+}
+
+.email{
+    order: 1;
+    padding-top: 20px;
+}
+
+.footer_nav{
+    order: 2;
+}
+
+.ali{
+    display: none;
+    visibility: hidden;
+    position: absolute;
+}
+
+.richard{
+    display: none;
+    visibility: hidden;
+    position: absolute;
+}
+
+.testimonios article{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.testimonios article p{
+    text-align: center;
+}
 }
 
