@@ -3,7 +3,6 @@
 body{
     box-sizing: border-box;
     font-family: 'Be Vietnam Pro';
-    margin: 50px;
 }
 
 
@@ -12,6 +11,7 @@ header{
     align-content: space-between;
     align-items: center;
     justify-content: space-between;
+    margin: 50px;
 }
 
 header ul li{
@@ -25,16 +25,16 @@ a{
     text-decoration: none;
 }
 
-a:link{
+header a:link{
     text-decoration: none;
     color: #242E52;
 }
    
-a:visited{
+header a:visited{
     color: #242E52;
    }
 
-a:hover{
+header a:hover{
 color: #8F94A7;
 }
 
@@ -86,11 +86,6 @@ color: #8F94A7;
     border-style: none;
 }
 
-/* main section{
-    display: flex;
-    margin: 50px;
-   justify-content: space-around;   
-} */
 
 p{
     color: #8F94A7;
@@ -98,6 +93,7 @@ p{
 
 .container{
     display: inline-flex;
+    justify-content: space-between;
 }
 
 .section2{
@@ -116,6 +112,7 @@ p{
 .testimonios{
     display: flex;
 }
+
 
 .title{
     display: flex;
@@ -138,12 +135,50 @@ p{
     width: 439px;
 }
 
+.boton_3{
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(243, 96, 59, 1);
+    border-style: none;
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    font-family: 'Be Vietnam Pro';
+}
+
+.boton_3:hover{
+    background-color:rgba(243, 96, 59, 1);
+    color:  rgba(255, 255, 255, 1);
+}
+
+.simplify{
+    background-color: rgba(243, 96, 59, 1);
+    color: rgba(255, 255, 255, 1);
+    height: 224px;
+    width: 1439px;
+    left: 0px;
+    top: 0px;
+}
+
+.work{
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    display: inline-flex;
+}
+
 footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #1E1E26;
     color: rgba(255, 255, 255, 1);
+    width: 1439px;
+    height: 247px;
+    left: 0px;
+    top: 2392px;
 }
 
 .footer_nav{
@@ -159,8 +194,24 @@ footer ul li{
     color:  rgba(243, 96, 59, 1);
 }
 
+footer a:link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+   
+footer a:visited{
+    color: rgba(255, 255, 255, 1);
+   }
 
+footer a:hover{
+color: rgba(243, 96, 59, 1);
+}
 
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 @media (max-width:480px) {
     header ul li{
@@ -172,5 +223,31 @@ footer ul li{
    .hamburger{
     display: block;
    }
+
+   .intro{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .container{
+    display: flex;
+    flex-direction: column;
+   }
+
+.testimonios{
+    display: flex;
+    flex-direction: column;
+}   
+
+.simplify{
+    width:100%;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 }
 
