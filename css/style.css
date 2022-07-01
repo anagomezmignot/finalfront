@@ -1,45 +1,45 @@
-
-
-body{
+* {
     box-sizing: border-box;
+}
+
+body {
     font-family: 'Be Vietnam Pro';
 }
 
 
-header{
+header {
     display: flex;
-    /* align-content: space-between; */
-    align-items: center; 
+    align-items: center;
     justify-content: space-between;
-    /* margin: 50px; */
+    margin: 50px;
     padding: 30px;
 }
 
-header ul li{
+header ul li {
     list-style: none;
     display: inline-block;
     padding: 0 5px 0 30px;
     color: #242E52;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-header a:link{
+header a:link {
     text-decoration: none;
     color: #242E52;
 }
-   
-header a:visited{
-    color: #242E52;
-   }
 
-header a:hover{
-color: #8F94A7;
+header a:visited {
+    color: #242E52;
 }
 
-.boton{
+header a:hover {
+    color: #8F94A7;
+}
+
+.boton {
     border-radius: 50px;
     background-color: rgba(243, 96, 59, 1);
     color: rgba(255, 255, 255, 1);
@@ -49,125 +49,119 @@ color: #8F94A7;
     padding: 10px;
     font-family: 'Be Vietnam Pro';
 }
- 
-.boton:hover{
+
+.boton:hover {
     box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
 
 }
 
-.hamburger{
+.hamburger {
     display: none;
 }
 
-.intro{
+.intro {
     display: flex;
     width: auto;
     justify-content: space-around;
     align-items: center;
 }
 
-.productos{
+.intro div {
+    width: 40%;
+}
+
+.productos {
     display: flex;
     flex-direction: column;
 }
 
-.graficas{
-    /* width: 500px; */
-    max-width: 520px;
-    min-width: 220px;
-    width: 90vw;
-}
 
 main p {
     color: rgba(143, 148, 167,0.8);
-    font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 50px;
-    margin-top: 10px;
-}   
+    
+    
+} 
 
-.boton_footer:hover{
-    background-color:rgba(255, 255, 255, 1);
-    color:  rgba(243, 96, 59, 1);
+.boton_footer:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(243, 96, 59, 1);
 }
 
-.boton_footer{
-    border-radius: 20px;
-    background-color: rgba(243, 96, 59, 1);
-    color: rgba(255, 255, 255, 1);
-    border-style: none;
+.boton_footer {
+    height: 3rem;
+    width: 5rem;
+    background-color: #F3603B;
+    border-radius: 50px;
+    border: 0px;
 }
 
-
-.container{
-    display: inline-flex;
+.container {
+    display: flex;
     justify-content: space-between;
+    margin: 0px 50px;
+    width: 90%;
 }
 
-.section2{
+.container section:first-child {
+    margin-right: 200px;
+}
+
+.section2 {
     display: flex;
     flex-direction: column;
 }
 
-.bullet{
+.bullet {
     background-color: rgba(243, 96, 59, 1);
     border-radius: 20px;
-    color: rgba(255, 255, 255, 1); 
+    color: rgba(255, 255, 255, 1);
     padding: 10px 20px;
-    
+
 }
 
-.testimonios{
+.testimonios {
     display: flex;
     height: 600px;
 }
 
-.testimonios article h4{
+.testimonios article h4 {
     color: rgb(35, 44, 81);
     font-size: 2rem;
     margin-bottom: 75px;
 }
 
-.testimonios article img{
-    margin-bottom: 40px;
-    max-width: 100px;
-    width: 25vw;
-}
 
-.testimonios article{
+.testimonios article {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.testimonios article p{
+.testimonios article p {
     text-align: center;
     font-size: 1.25rem;
     margin-bottom: 20px;
 }
 
-.title{
+.title {
     display: flex;
     justify-content: center;
-    font-weight: 700;   
+    font-weight: 700;
 }
 
 
-.bring{
+.bring {
     font-size: 58px;
     font-weight: 700;
-    width: 439px;
     margin-bottom: 20px;
     letter-spacing: -0.035em;
-    color: #232c50; 
+    color: #232c50;
 }
 
-.productos p{
-    width: 439px;
-}
 
-.boton_3{
+
+.boton_3 {
     border-radius: 50px;
     background-color: rgba(255, 255, 255, 1);
     color: rgba(243, 96, 59, 1);
@@ -178,36 +172,36 @@ main p {
     font-family: 'Be Vietnam Pro';
 }
 
-.boton_3:hover{
-    background-color:rgba(243, 96, 59, 1);
-    color:  rgba(255, 255, 255, 1);
+.boton_3:hover {
+    background-color: rgba(243, 96, 59, 1);
+    color: rgba(255, 255, 255, 1);
 }
 
 
- .work{
+.work {
     font-family: 'Be Vietnam Pro';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
     display: inline-flex;
-} 
-.banner{
-    align-items: center;
+    width: 280px;
+}
+
+.banner {
     background-color: rgb(242, 95, 58);
     color: rgba(255, 255, 255, 1);
     display: flex;
-    /* flex-direction: column; */
     height: 300px;
-    align-content: space-between;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 50px;
-    padding: 30px;
+    padding: 0px 100px;
 }
 
 
 
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -215,112 +209,225 @@ footer{
     color: rgba(255, 255, 255, 1);
     height: 300px;
     left: 0px;
-    top: 2392px;
     padding: 30px;
+    position: relative;
 }
 
-.footer_nav{
-display: flex;
+.copyright {
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
 }
 
-footer ul li{
- list-style: none;
- color: rgba(255, 255, 255, 1);
+.boton_perfiles {
+    margin-left: 650px;
 }
 
-.nav_footer:hover{
-    color:  rgba(243, 96, 59, 1);
+
+.footer_nav {
+    display: flex;
 }
 
-footer a:link{
+footer ul li {
+    list-style: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.nav_footer:hover {
+    color: rgba(243, 96, 59, 1);
+}
+
+footer a:link {
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
 }
-   
-footer a:visited{
-    color: rgba(255, 255, 255, 1);
-   }
 
-footer a:hover{
-color: rgba(243, 96, 59, 1);
+footer a:visited {
+    color: rgba(255, 255, 255, 1);
 }
 
-.redes{
+footer a:hover {
+    color: rgba(243, 96, 59, 1);
+}
+
+.redes {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    height: 100px;
 }
 
-@media (max-width:375px) {
-    header ul li{
+.listas_footer {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
+
+.input {
+    height: 3rem;
+    width: 14rem;
+    background-color: white;
+    border-radius: 50px;
+    border: 0px;
+    padding-left: 15px;
+    color: #A0A0A0;
+    font-weight: 600;
+}
+
+@media (max-width:400px) {
+
+    header {
+        padding: 0px;
+    }
+
+    .bring {
+        width: 100%;
+    }
+
+    header ul li {
         display: none;
     }
-   .boton_header{
-    display: none;
-   } 
-   .hamburger{
-    display: block;
-   }
 
-   .intro{
-    display: flex;
-    flex-direction: column;
-   }
+    .boton_header {
+        display: none;
+    }
 
-   .container{
-    display: flex;
-    flex-direction: column;
-   }  
+    .hamburger {
+        display: flex;
+    }
 
-.simplify{
-    width:100%;
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro div {
+        width: 90vw;
+    }
+
+    .intro div img {
+        width: 100%;
+    }
+
+    .productos {
+        text-align: center;
+        align-items: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0px 0px;
+    }
+
+    .container section:first-child {
+        margin-right: 0px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+        height: 400px;
+    }
+
+    footer nav ul {
+        padding: 0px;
+    }
+
+    .redes {
+        order: 3;
+        padding-bottom: 30px;
+        flex-direction: column-reverse;
+        height: 100px;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .email {
+        order: 1;
+        padding-top: 20px;
+    }
+
+    .footer_nav {
+        order: 2;
+    }
+
+    .copyright {
+        order: 4;
+    }
+
+    .ali {
+        display: none;
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .richard {
+        display: none;
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .testimonios article {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .testimonios article p {
+        text-align: center;
+    }
+
+    .boton,
+    .boton_perfiles {
+        text-align: center;
+        align-items: center;
+    }
+
+    .perfiles {
+        text-align: center;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 430px;
+    }
+
+    .boton_perfiles {
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .work {
+        width: 200px;
+    }
+
+    .listas_footer {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+    }
+
+    .footer_nav {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .footer_nav li {
+        padding: 4px 0px 10px 0px;
+    }
+
+    footer div a {
+        padding: 0px 10px;
+    }
+
+    footer div a i {
+        width: 45px;
+    }
 }
-
-footer{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-footer nav ul{
-    padding: 0px;
-}
-
-.redes{
-    order: 3;
-    padding-bottom: 30px;
-}
-
-.email{
-    order: 1;
-    padding-top: 20px;
-}
-
-.footer_nav{
-    order: 2;
-}
-
-.ali{
-    display: none;
-    visibility: hidden;
-    position: absolute;
-}
-
-.richard{
-    display: none;
-    visibility: hidden;
-    position: absolute;
-}
-
-.testimonios article{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-}
-
-.testimonios article p{
-    text-align: center;
-}
-}
-
